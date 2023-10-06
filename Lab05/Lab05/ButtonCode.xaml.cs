@@ -10,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Lab05
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ButtonDemo : ContentPage
+    public partial class ButtonCode : ContentPage
     {
-        public ButtonCode
+        public ButtonCode()
         {
             InitializeComponent();
-
             Title = "Code Button Click";
 
             Label label = new Label
